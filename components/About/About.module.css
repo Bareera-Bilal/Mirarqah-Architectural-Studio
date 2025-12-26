@@ -1,0 +1,158 @@
+.about {
+  width: 100%;
+  max-width: 1600px;
+  min-height: 100vh;
+  background: white;
+  padding: 140px 120px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 100px;
+  color: black;
+  margin-left: -70px;
+}
+
+
+/* LEFT */
+.left {
+  max-width: 560px;
+}
+
+.tag {
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #c9a24d;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 28px;
+}
+
+.left h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  line-height: 1.08;
+  font-weight: 600;
+  margin-bottom: 32px;
+  color: #111;
+}
+
+.left h2 span {
+  color: #c9a24d;
+}
+
+.left p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #444;
+  margin-bottom: 22px;
+}
+
+
+.tag {
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #c9a24d;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 28px;
+}
+
+.left h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.left h2 span {
+  color: #c9a24d;
+}
+
+.gold {
+  color: #c9a24d;
+}
+
+.left p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: black;
+  margin-bottom: 22px;
+}
+
+/* RIGHT */
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+
+
+/* stats */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.card {
+  background: #f7f7f7;
+  padding: 40px 30px;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #c9a24d;
+  margin-bottom: 12px;
+}
+
+.card span {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+
+
+
+
+/* VISION / MISSION */
+.values {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.valueCard {
+  background: #fafafa;
+  padding: 36px;
+  border-radius: 6px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.valueCard h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  margin-bottom: 14px;
+  color: #111;
+}
+
+.valueCard p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+}

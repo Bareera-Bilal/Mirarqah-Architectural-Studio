@@ -1,0 +1,86 @@
+.services {
+  width: 1600px;
+  min-height: 100vh;
+  padding: 140px 120px;
+  background: radial-gradient(
+      circle at top right,
+      rgba(201, 162, 77, 0.08),
+      transparent 40%
+    ),
+    #0b0b0b;
+  color: #fafaf8;
+  margin-left: -50px;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 100px;
+}
+
+.header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 56px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.header p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #bdbdbd;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+}
+
+/* CARD */
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 44px 36px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  border-color: #c9a24d;
+  transform: translateY(-8px);
+}
+
+/* Highlighted card (middle one) */
+.active {
+  border: 1px solid #c9a24d;
+}
+
+/* ICON */
+.icon {
+  width: 56px;
+  height: 56px;
+  background: rgba(201, 162, 77, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #c9a24d;
+  margin-bottom: 28px;
+}
+
+/* TITLE */
+.card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* TEXT */
+.card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #bdbdbd;
+}

@@ -1,0 +1,149 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #0b0b0b;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Background Image */
+.bgImage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Dark Gradient Overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.15)
+  );
+  z-index: 2;
+}
+
+/* Subtle Blur */
+.blurOverlay {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+
+/* TEXT CONTENT */
+.textOverlay {
+  position: relative;
+  z-index: 3;
+  max-width: 680px;
+  padding-left: 120px;
+  padding-top: 140px;
+  text-align: left;
+  margin-top: 50px;
+}
+
+/* Small Heading */
+.textOverlay h2 {
+  font-size: 13px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #c9a24d;
+  margin-bottom: 22px;
+  font-weight: 500;
+}
+
+/* Main Heading */
+.textOverlay h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  line-height: 1.12;
+  font-weight: 600;
+  color: #fafaf8;
+  margin-bottom: 28px;
+}
+
+/* Paragraph */
+.textOverlay p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #d6d6d6;
+  max-width: 520px;
+  margin-bottom: 42px;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 22px;
+}
+
+.buttons button {
+  padding: 14px 30px;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Primary Button */
+.buttons button:first-child {
+  background: #c9a24d;
+  border: 1px solid #c9a24d;
+  color: #0b0b0b;
+}
+
+.buttons button:first-child:hover {
+  background: transparent;
+  color: #c9a24d;
+}
+
+/* Secondary Button */
+.buttons button:last-child {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.buttons button:last-child:hover {
+  background: #ffffff;
+  color: #0b0b0b;
+}
+
+/* Scroll Indicator */
+.scroll {
+  margin-top: 100px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #c9a24d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 550px;
+  margin-right: auto;
+
+  /* Remove background */
+  background-color: transparent;
+  border: none;
+
+  /* Optional polish */
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
